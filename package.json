@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/while-kaique/Aprendendo_Tailwind/issues"
   },
-  "homepage": "https://github.com/while-kaique/Aprendendo_Tailwind#readme"
+  "homepage": "https://github.com/while-kaique/Aprendendo_Tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }
