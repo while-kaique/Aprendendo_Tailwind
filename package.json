@@ -1,0 +1,20 @@
+{
+  "name": "aprendendo_tailwind",
+  "version": "1.0.0",
+  "description": "Aprendendo um framework de CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/while-kaique/Aprendendo_Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/while-kaique/Aprendendo_Tailwind/issues"
+  },
+  "homepage": "https://github.com/while-kaique/Aprendendo_Tailwind#readme"
+}
