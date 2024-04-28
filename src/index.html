@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="dark"></html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind</title>
     <link rel="stylesheet" href="./output.css">
 </head>
-<body>
-    <p class="bg-brand font-semibold uppercase text-white">eae</p>
+
+<body class="bg-gray-50 ">
+    <header class="flex justify-between items-center bg-white px-20 h-20">
+        <h1 class="text-4xl font-bold text-cyan-800">LOGO</h1>
+        <nav class="flex space-x-3">
+            <a href="#" class="hover:underline">
+                <p class="text-cyan-700">Como reservar</p>
+            </a>
+            <a href="#" class="hover:underline">
+                <p class="text-cyan-700">Sobre Nós</p>
+            </a>
+            <a href="#" class="hover:underline">
+                <p class="text-cyan-700">Informações</p>
+            </a>
+            <a href="#" class="hover:underline">
+                <p class="text-cyan-700">Contato</p>
+            </a>
+    </header>
+
+    <section>
+        <h1>Onde você quer ir?</h1>
+        <p>Escolha o estado e cidade para achar os melhores resorts</p>
+
+        <select>
+            <option value="">Escolha o estado</option>
+        </select>
+        <select>
+            <option value="">Escolha a cidade</option>
+        </select>
+
+        <button>Pesquisar Resort</button>
+    </section>
 </body>
+
 </html>
