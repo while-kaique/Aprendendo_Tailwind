@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="dark">
+<html lang="pt-br" class="w-screen h-screen overflow-x-clip">
 
 </html>
 
@@ -28,15 +28,15 @@
             </a>
     </header>
 
-    <section class="relative flex items-center w-full bg-cover bg-bottom bg-sectionURL h-80">
+    <section id="search" class="relative flex items-center w-full bg-cover bg-bottom bg-sectionURL h-96">
         <div id="pseudoEffect" class="bg-black w-full top-0 h-full opacity-60 absolute">
         </div>
-        <div id="info" class="flex items-center justify-center flex-wrap w-2/3 m-auto z-10">
+        <div id="searchInfo" class="flex items-center justify-center flex-wrap w-2/3 m-auto z-10">
             <h1 class="w-full text-center text-3xl font-base mb-1 text-white">Onde você quer ir?</h1>
             <p class="w-full text-center text-base mb-10 text-white">Escolha o estado e cidade para achar os melhores
                 resorts</p>
 
-            <div id="form" class="space-x-4">
+            <div id="searchForm" class="space-x-4">
                 <select
                     class=" w-48 h-11 px-3 text-gray-500 rounded border-transparent //// bg-expandSVG bg-no-repeat bg-selectionSize bg-sectionPosition appearance-none">
                     <option value="">Escolha o estado</option>
@@ -48,10 +48,33 @@
 
                 
                   
-                <button class="h-11 w-44 text-black text-right px-4 rounded bg-orange-500 font-medium //// bg-searchSVG bg-no-repeat bg-searchSize bg-searchPosition">Pesquisar Resort</button>
+                <button class="h-11 w-44 text-gray-900 text-right px-4 rounded bg-orange-500 font-medium //// bg-searchSVG bg-no-repeat bg-searchSize bg-searchPosition">Pesquisar Resort</button>
             </div>
         </div>
     </section>
+
+    <main>
+        <div id="main" class="container flex justify-between gap-x-20 flex-wrap mx-auto w-3/4 mt-12 pb-12">
+            <div id="firstMain" class="w-2/4 text-gray-600">
+                <h2 class="text-xs uppercase">Resort em Destaque</h2>
+                <h1 class="text-2xl">Ecoresort Praia do Forte Bahia</h1>
+                <h2 class="text-sm my-1 text-gray-400">Hotel qualidade 5 estrelas</h2>
+    
+                <p class="text-sm mb-10 mt-3">O Ecoresort Praia do Forte na Bahia é um refúgio paradisíaco de cinco estrelas, onde luxo e sustentabilidade se encontram. Com vistas deslumbrantes, serviços impecáveis e um compromisso com a preservação ambiental, é o destino ideal para uma experiência única e consciente.</p>
+    
+                <p class="text-sm mb-8 mt-3">Unindo luxo e consciência ambiental em um cenário deslumbrante. Ideal para quem busca uma experiência única e sustentável, oferece serviços impecáveis e uma atmosfera de tranquilidade incomparável.</p>
+    
+                <button class="h-11 w-52 text-gray-900 text-right rounded bg-orange-500 font-medium /// hover:bg-orange-400">Solicitar Reserva 
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 ml-4 mr-4">
+                        <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+            <div id="secondMain" class="w-2/5 mt-8">
+                <img src="./images/section_img.jpg" alt="Foto do Hotel">
+            </div>
+        </div>
+    </main>
 
     <footer>
     </footer>
