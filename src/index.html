@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="dark"></html>
+<html lang="pt-br" class="dark">
+
+</html>
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +10,7 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 
-<body class="bg-gray-50 ">
+<body class="bg-gray-50 w-screen h-screen">
     <header class="flex justify-between items-center bg-white px-20 h-20">
         <h1 class="text-4xl font-bold text-cyan-800">LOGO</h1>
         <nav class="flex space-x-3">
@@ -26,19 +28,33 @@
             </a>
     </header>
 
-    <section>
-        <h1>Onde você quer ir?</h1>
-        <p>Escolha o estado e cidade para achar os melhores resorts</p>
+    <section class="relative flex items-center w-full bg-cover bg-bottom bg-sectionURL h-80">
+        <div id="pseudoEffect" class="bg-black w-full top-0 h-full opacity-60 absolute">
+        </div>
+        <div id="info" class="flex items-center justify-center flex-wrap w-2/3 m-auto z-10">
+            <h1 class="w-full text-center text-3xl font-base mb-1 text-white">Onde você quer ir?</h1>
+            <p class="w-full text-center text-base mb-10 text-white">Escolha o estado e cidade para achar os melhores
+                resorts</p>
 
-        <select>
-            <option value="">Escolha o estado</option>
-        </select>
-        <select>
-            <option value="">Escolha a cidade</option>
-        </select>
+            <div id="form" class="space-x-4">
+                <select
+                    class=" w-48 h-11 px-3 text-gray-500 rounded border-transparent //// bg-expandSVG bg-no-repeat bg-selectionSize bg-sectionPosition appearance-none">
+                    <option value="">Escolha o estado</option>
+                </select>
+                <select
+                    class=" w-48 h-11 px-3 text-gray-500 rounded border-transparent //// bg-expandSVG bg-no-repeat bg-selectionSize bg-sectionPosition appearance-none">
+                    <option value="">Escolha a cidade</option>
+                </select>
 
-        <button>Pesquisar Resort</button>
+                
+                  
+                <button class="h-11 w-44 text-black text-right px-4 rounded bg-orange-500 font-medium //// bg-searchSVG bg-no-repeat bg-searchSize bg-searchPosition">Pesquisar Resort</button>
+            </div>
+        </div>
     </section>
+
+    <footer>
+    </footer>
 </body>
 
 </html>
